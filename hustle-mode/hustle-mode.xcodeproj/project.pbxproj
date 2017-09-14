@@ -12,6 +12,7 @@
 		46B0EE401F6B106700F5E885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B0EE3E1F6B106700F5E885 /* Main.storyboard */; };
 		46B0EE421F6B106700F5E885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B0EE411F6B106700F5E885 /* Assets.xcassets */; };
 		46B0EE451F6B106700F5E885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B0EE431F6B106700F5E885 /* LaunchScreen.storyboard */; };
+		46B0EE4D1F6B16B000F5E885 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46B0EE4C1F6B16B000F5E885 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		46B0EE411F6B106700F5E885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46B0EE441F6B106700F5E885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46B0EE461F6B106700F5E885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B0EE4C1F6B16B000F5E885 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "../../../Downloads/Swift Tutorials/Udemy - iOS 11 and Swift 4 - From Beginner to Paid Professional/01-getting-started-with-xcode-9-ios-11/attached_files/005-app-hustle-your-first-ios-11-app/hustle-mode-code-assets/assets/Assets/hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		46B0EE391F6B106700F5E885 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				46B0EE4C1F6B16B000F5E885 /* hustle-on.wav */,
 				46B0EE3A1F6B106700F5E885 /* AppDelegate.swift */,
 				46B0EE3C1F6B106700F5E885 /* ViewController.swift */,
 				46B0EE3E1F6B106700F5E885 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B0EE4D1F6B16B000F5E885 /* hustle-on.wav in Resources */,
 				46B0EE451F6B106700F5E885 /* LaunchScreen.storyboard in Resources */,
 				46B0EE421F6B106700F5E885 /* Assets.xcassets in Resources */,
 				46B0EE401F6B106700F5E885 /* Main.storyboard in Resources */,
