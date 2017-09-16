@@ -12,6 +12,7 @@
 		46F000141F6D499C00A04760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F000121F6D499C00A04760 /* Main.storyboard */; };
 		46F000161F6D499C00A04760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F000151F6D499C00A04760 /* Assets.xcassets */; };
 		46F000191F6D499C00A04760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F000171F6D499C00A04760 /* LaunchScreen.storyboard */; };
+		46F000221F6D4F3A00A04760 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F000211F6D4F3A00A04760 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		46F000151F6D499C00A04760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46F000181F6D499C00A04760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46F0001A1F6D499C00A04760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F000211F6D4F3A00A04760 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		46F0000D1F6D499C00A04760 /* learning-swoosh-app */ = {
 			isa = PBXGroup;
 			children = (
+				46F000201F6D4E7600A04760 /* Views */,
 				46F0000E1F6D499C00A04760 /* AppDelegate.swift */,
 				46F000101F6D499C00A04760 /* ViewController.swift */,
 				46F000121F6D499C00A04760 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				46F0001A1F6D499C00A04760 /* Info.plist */,
 			);
 			path = "learning-swoosh-app";
+			sourceTree = "<group>";
+		};
+		46F000201F6D4E7600A04760 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F000211F6D4F3A00A04760 /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				46F000111F6D499C00A04760 /* ViewController.swift in Sources */,
 				46F0000F1F6D499C00A04760 /* AppDelegate.swift in Sources */,
+				46F000221F6D4F3A00A04760 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
