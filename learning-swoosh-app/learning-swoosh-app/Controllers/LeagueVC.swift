@@ -14,6 +14,10 @@ class LeagueVC: UIViewController {
 
     @IBOutlet weak var nextBtn: BorderButton!
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

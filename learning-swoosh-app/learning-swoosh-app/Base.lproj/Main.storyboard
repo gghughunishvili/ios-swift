@@ -134,7 +134,6 @@
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="288" id="0o1-pk-DdO"/>
                                     <constraint firstAttribute="height" constant="88" id="y9T-qK-hDB"/>
                                 </constraints>
                             </stackView>
