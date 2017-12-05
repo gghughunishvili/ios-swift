@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4632D2361FD74B0F0053A5A2 /* CategoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632D2351FD74B0F0053A5A2 /* CategoryCellTableViewCell.swift */; };
 		467C67D01F8F708800B72291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C67CF1F8F708800B72291 /* AppDelegate.swift */; };
-		467C67D21F8F708800B72291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C67D11F8F708800B72291 /* ViewController.swift */; };
+		467C67D21F8F708800B72291 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C67D11F8F708800B72291 /* CategoriesVC.swift */; };
 		467C67D51F8F708800B72291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467C67D31F8F708800B72291 /* Main.storyboard */; };
 		467C67D71F8F708800B72291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467C67D61F8F708800B72291 /* Assets.xcassets */; };
 		467C67DA1F8F708800B72291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467C67D81F8F708800B72291 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4632D2351FD74B0F0053A5A2 /* CategoryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellTableViewCell.swift; sourceTree = "<group>"; };
 		467C67CC1F8F708800B72291 /* t-shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "t-shopping.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467C67CF1F8F708800B72291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		467C67D11F8F708800B72291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		467C67D11F8F708800B72291 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		467C67D41F8F708800B72291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		467C67D61F8F708800B72291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467C67D91F8F708800B72291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4632D2321FD74ABD0053A5A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4632D2331FD74AC20053A5A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				467C67D11F8F708800B72291 /* CategoriesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4632D2341FD74AC90053A5A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4632D2351FD74B0F0053A5A2 /* CategoryCellTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		467C67C31F8F708800B72291 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +79,10 @@
 		467C67CE1F8F708800B72291 /* t-shopping */ = {
 			isa = PBXGroup;
 			children = (
+				4632D2321FD74ABD0053A5A2 /* Model */,
+				4632D2341FD74AC90053A5A2 /* View */,
+				4632D2331FD74AC20053A5A2 /* Controller */,
 				467C67CF1F8F708800B72291 /* AppDelegate.swift */,
-				467C67D11F8F708800B72291 /* ViewController.swift */,
 				467C67D31F8F708800B72291 /* Main.storyboard */,
 				467C67D61F8F708800B72291 /* Assets.xcassets */,
 				467C67D81F8F708800B72291 /* LaunchScreen.storyboard */,
@@ -136,7 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467C67D21F8F708800B72291 /* ViewController.swift in Sources */,
+				467C67D21F8F708800B72291 /* CategoriesVC.swift in Sources */,
+				4632D2361FD74B0F0053A5A2 /* CategoryCellTableViewCell.swift in Sources */,
 				467C67D01F8F708800B72291 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
