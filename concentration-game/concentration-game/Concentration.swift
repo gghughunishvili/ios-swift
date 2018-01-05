@@ -10,9 +10,9 @@ import Foundation
 
 class Concentration
 {
-    var cards = [Card]()
+    private(set) var cards = [Card]()
     
-    var indexOfOneAndOnlyFacedUpCard: Int? {
+    private var indexOfOneAndOnlyFacedUpCard: Int? {
         get {
             var foundIndex: Int?
             for index in cards.indices {
@@ -59,7 +59,7 @@ class Concentration
         }
     }
     
-    func shuffleCards() {
+    private func shuffleCards() {
         var last = cards.count - 1
         
         while(last > 0)
